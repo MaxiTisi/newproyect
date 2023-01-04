@@ -5,6 +5,12 @@
 
 }
 
+body {
+    background-image: url(../img/fondoparahtml.jpg);
+ 
+
+}
+
 /*/ ESTILOS NAVEGACION/*/ 
 
 ul {
@@ -21,10 +27,11 @@ li {
 li a {
     text-decoration: none;
     font-size: 15px;
-    color: black;
+    color: rgb(255, 0, 0);
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
     letter-spacing: 3px;
+    
 }
 
 
@@ -49,7 +56,56 @@ li a {
     height: 750px;
 }
 
+/*/ESTILOS SECTION INDEX/*/
 
+.titulo__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 100px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    letter-spacing: 10px;
+    word-spacing: 50px;
+    margin: 25px;
+    color: rgb(255, 0, 0);
+}
+
+
+.section__grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto;
+    align-items: center;
+    justify-content:center;
+    gap: 150px;
+    margin: 50px;
+}
+
+.section__blok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+
+.section__img {
+    width: 500px;
+    height: 500px;
+    
+}
+
+
+
+.ancla__section:hover {
+    transform: scale(1.1);
+}
+
+.ancla__section {
+    transition: 1s;
+}
 
 /*/MEDIA QUERIS/*/
 
@@ -60,6 +116,7 @@ li a {
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto;
         justify-content: center;
+        
     }
 
     .banner img {
@@ -67,4 +124,28 @@ li a {
         height: 350px;
     }
 
+    .section__img {
+        height: 350px;
+        width: 350px;
+    }
+
 }
+
+@media (max-width:1200px) {
+
+    .titulo__section {
+        font-size: 50px;
+        text-align: center;
+        
+    }
+
+    .section__grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+    
+
+
+
