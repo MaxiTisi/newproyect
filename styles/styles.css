@@ -123,6 +123,7 @@ footer {
     justify-content: space-between;
     border: 2px solid black;
     background-color: rgb(44, 44, 44);
+    
 }
 
 .blok__footer {
@@ -140,6 +141,34 @@ footer {
 
 
 
+}
+
+/*/ESTILOS NOSOTROS/*/
+
+.section__nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.img__nosotros {
+    width: 450px;
+    height: 450px;
+}
+
+.div__nosotros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 25px;
+}
+
+.div__nosotros p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    line-height: 35px;
+    margin: 15px;
 }
 
 
