@@ -5,78 +5,81 @@
 
 }
 
-body {
-    background-image: url(../img/fondoparahtml.jpg);
- 
-
+body{
+    background-color: black;
+    
 }
 
-/*/ ESTILOS NAVEGACION/*/ 
 
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border: solid 2px black;
-    margin-top: 5px;
+/*/ESTILOS BOTON NAVEGACION /*/
+nav{
+    margin-top: -15px;
+    
+    
+}
+.boton__color {
+    background-color: red;
+    padding: 5px;
+    margin: 15px;
+}
+/*/ESTILOS NAVEGACION/*/
+.img__logo {
+    width: 50px;
+    height: 50px;
 }
 
-li a:hover {
-    border-bottom: solid 2px rgb(255, 0, 0);
+.ul__nav {
+   padding: 35px; 
+   width: 100%;
+   height: 100%;
+   background-color: red;
 }
-
-li {
-    list-style-type: none;
-    margin: 25px;
+.ul__nav li {
+    margin: 0px 50px;
 }
-
-li a {
-    text-decoration: none;
-    font-size: 15px;
-    color: rgb(255, 0, 0);
-    font-family: 'Orbitron', sans-serif;
+.ul__nav li a {
+    color: black;
+    font-size: 25px;
     font-weight: bold;
-    letter-spacing: 3px;
+}
+.ul__nav li a:hover{
+    color: rgb(255, 0, 0);
+}
+/*/ ESTILOS SLIDERS FOTOS /*/
+
+.slider {
+    width: 100%;
+    height: 500px;
+    padding: 25px;
     
 }
 
-
-
-
-/*/ ESTILOS BANNER /*/
-
-.ancla__banner{
-    width: 100%;
+.img__slider{
+    height: 600px;
 }
 
-.banner {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 20px;
-    
-}
 
-.banner img {
-    width: 100%;
-    height: 750px;
-}
 
 /*/ESTILOS SECTION INDEX/*/
+
 
 .titulo__section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 50px;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
-    letter-spacing: 10px;
+    letter-spacing: 3px;
     word-spacing: 50px;
     margin: 25px;
     color: rgb(255, 0, 0);
-    border: solid 3px rgb(0, 0, 0);
-    border-radius: 3%;
+    margin-top: 200px;
+    
+    
+}
+.titulo__section h1 {
+    font-size: 50px;
+    border-bottom: solid 5px rgb(255, 0, 0);
 }
 
 
@@ -102,6 +105,7 @@ li a {
 .section__img {
     width: 450px;
     height: 450px;
+    border: solid 5px red;
     
 }
 
