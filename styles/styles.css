@@ -38,7 +38,7 @@ nav{
    background-color:black;
 }
 .ul__nav li {
-    margin: 0px 50px;
+    margin: 0px 15px;
 }
 .ul__nav li a {
     color: white;
@@ -229,9 +229,92 @@ footer {
 }
 
 
+/*/ESTILOS MOTOS/*/
+
+.titulo__motos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titulo__motos h2 {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    border-bottom: double 10px red;
+    font-size: 80px;
+
+} 
+.ul__motos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding: 15px;
+    border: solid 2px red;
+}
+.ul__motos li {
+    list-style-type: none; 
+}
+.img__nav {
+    height: 120px;
+    width: 120px;
+}
+.section__motos {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    gap: 50px;
+}
+.motos__img {
+    width: 600px;
+    height: 500px;
+}
+.div__section__motos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px;
+    padding: 15px;
+    border: double 10px red;
+    transition: 1s;
+}
+.div__section__motos:hover{
+    transform: scale(1.1);
+}
+
+.text__motos {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
+    padding: 10px;
+    color: white;
+}
+.h {
+    border-bottom: double 5px red;
+}
+
+.p {
+    color: red;
+    font-size: 20px;
+}
+.div__section__motos a {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.div__section__motos a:hover {
+    color: red;
+} 
+
 /*/MEDIA QUERIS/*/
 
 @media (max-width:600px){
+    .motos__img {
+        width: 350px;
+        height: 350px;
+    }
+
+
     .iframe {
         height: 500px;
         width: 250px;
@@ -250,6 +333,7 @@ footer {
 
 @media (max-width:750px){
 
+    
     ul {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -272,10 +356,26 @@ footer {
         margin: 25px;
     }
 
+    .ul__motos {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        justify-content: space-around;
+        gap: 15px;
+        
+    }
+
 
 }
 
 @media (max-width:1200px) {
+
+    .section__motos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
     .titulo__section {
         font-size: 50px;
@@ -297,11 +397,20 @@ footer {
     .iframe__section {
         display: flex;
         flex-direction: column;
-        e
+        
     }
 
 }
+
+@media (max-width:1400px){
+
+    .section__motos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
     
-
-
 
