@@ -325,49 +325,67 @@ footer {
     border: solid 5px red;
     
 }
-.img__honda {
-    width: 525px;
-    height: 350px;
+.imghonda {
+    width: 500px;
+    height: 450px;
 }
 /*/MEDIA QUERIS/*/
 
-@media (max-width:600px){
-
-    .img__honda {
-        width: 450px;
-        height: 450px;
+@media (max-width:1600px) {
+    
+    .section__honda {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows:auto auto auto auto ;
     }
-        
-
-    .motos__img {
-        width: 350px;
-        height: 350px;
-    }
-
-
-    .iframe {
+    .img__honda{
+        width: 800px;
         height: 500px;
-        width: 250px;
+    }
+    .section__motos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .titulo__section {
+        font-size: 50px;
+        text-align: center;
+        
+    }
+
+    .section__grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div__nosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .iframe__section {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         
     }
-    
-        
+
 }
 
-@media (max-width:750px){
+@media (max-width:1200px){
 
 
     .section__honda {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .imghonda {
+        width: 800px;
+        height: 500px;
     }
 
     
@@ -405,47 +423,44 @@ footer {
 
 }
 
-@media (max-width:1600px) {
-    .section__honda{
+@media (max-width:900px) {
+
+    .section__honda {
         display: flex;
         flex-direction: column;
+        align-items:center;
+        justify-content: space-around;
 
     }
-    .img__honda{
-        width: 800px;
+
+    .div__section__motos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imghonda {
+        width: 425px;
+        height: 400px;
+    }
+    .motos__img {
+        width: 425px;
+        height: 350px;
+    }
+    .iframe {
         height: 500px;
+        width: 250px;
     }
-    .section__motos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    .titulo__section {
-        font-size: 50px;
-        text-align: center;
-        
-    }
-
-    .section__grid {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .div__nosotros {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .iframe__section {
         display: flex;
         flex-direction: column;
-        
-    }
-
+        justify-content: center;
+        align-items: center;
+    }  
 }
+
+
+
+
 
 
 
