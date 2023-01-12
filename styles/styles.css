@@ -459,6 +459,24 @@ footer {
 }
 
 
+@media (max-width:600px){
+
+    .imghonda {
+        width: 350px;
+        height: 400px;
+    }
+    .motos__img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .div__honda {
+        width: 400px;
+        
+    }
+
+}
+
 
 
 
