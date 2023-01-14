@@ -329,6 +329,40 @@ footer {
     width: 500px;
     height: 450px;
 }
+
+
+/*/ESTILOS COLORES MOTOS /*/
+.sectioncolor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+    
+    
+}
+
+.divcolor {
+    width: 75%;
+
+}
+
+.colorb {
+    height: 75px;
+    background-color: red;
+    
+}
+
+/*/ESTILOS FICHA TECNICA/*/
+
+.ficha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px;
+}
+
+
+
 /*/MEDIA QUERIS/*/
 
 @media (max-width:1600px) {
@@ -420,6 +454,10 @@ footer {
         
     }
 
+    .ficha img {
+        width: 850px;
+    }
+
 
 }
 
@@ -456,6 +494,10 @@ footer {
         justify-content: center;
         align-items: center;
     }  
+
+    .ficha img {
+        width: 650px;
+    }
 }
 
 
@@ -473,6 +515,10 @@ footer {
     .div__honda {
         width: 400px;
         
+    }
+
+    .ficha img {
+        width: 490px;
     }
 
 }
