@@ -354,6 +354,8 @@ footer {
 
 /*/ESTILOS FICHA TECNICA/*/
 
+
+
 .ficha {
     display: flex;
     flex-direction: row;
@@ -449,13 +451,18 @@ footer {
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
-        justify-content: space-around;
+        justify-content: space-evenly;
         gap: 15px;
         
     }
 
     .ficha img {
         width: 850px;
+    }
+
+    .img1 {
+        height: 350px;
+        
     }
 
 
@@ -498,6 +505,11 @@ footer {
     .ficha img {
         width: 650px;
     }
+
+    .img1 {
+        height: 250px;
+        
+    }
 }
 
 
@@ -518,8 +530,23 @@ footer {
     }
 
     .ficha img {
-        width: 490px;
+        width: 480px;
     }
+
+    .divcolor {
+        width: 100%;
+    }
+
+
+
+    .img1 {
+        height: 250px;
+        
+    }
+
+
+    
+
 
 }
 
