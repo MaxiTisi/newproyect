@@ -363,9 +363,72 @@ footer {
     margin: 100px;
 }
 
+.img1 {
+    height: 600px;
+}
+
+/*/estilos iframe yamaha/*/
+.iframe_yamaha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+    
+}
+
+.iframe_yamaha iframe {
+    width: 100%;
+    height: 500px;
+}
+
+/*/ESTILOS SERVICIOS/*/
+
+.div_servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    border: solid 2px red;
+    padding: 25px;
+}
+
+.div_servicios img {
+    width: 500px;
+    height: 500px;
+}
+
+.section_servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div_servicios h2 {
+    color: white;
+    letter-spacing: 3px;
+}
+
+.div_servicios p {
+    color: red;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
 
 
 /*/MEDIA QUERIS/*/
+@media (max-width:1800px){
+    .section_servicios{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section_servicios img {
+        width: 100%;
+
+    }
+}
+
 
 @media (max-width:1600px) {
     
@@ -408,6 +471,16 @@ footer {
         
     }
 
+    .img1 {
+        height: 450px;
+    }
+
+    .section_servicios img {
+        width: 100%;
+
+    }
+
+    
 }
 
 @media (max-width:1200px){
@@ -465,6 +538,12 @@ footer {
         
     }
 
+    .section_servicios img {
+        width:100%;
+
+    }
+
+   
 
 }
 
@@ -510,11 +589,12 @@ footer {
         height: 250px;
         
     }
+
+    
 }
 
 
 @media (max-width:600px){
-
     .imghonda {
         width: 350px;
         height: 400px;
@@ -523,31 +603,26 @@ footer {
         width: 350px;
         height: 350px;
     }
-
     .div__honda {
         width: 400px;
         
     }
-
-    .ficha img {
+    .ficha img  {
         width: 480px;
     }
-
     .divcolor {
         width: 100%;
     }
-
-
-
     .img1 {
         height: 250px;
-        
     }
 
+    .section_servicios img {
+        width: 350px;
 
-    
+    }
 
-
+   
 }
 
 
