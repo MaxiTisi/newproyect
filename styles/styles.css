@@ -608,7 +608,7 @@ footer {
         
     }
     .ficha img  {
-        width: 480px;
+        width: 440px;
     }
     .divcolor {
         width: 100%;
@@ -618,9 +618,13 @@ footer {
     }
 
     .section_servicios img {
-        width: 350px;
+        width: 300px;
 
     }
+
+    
+
+    
 
    
 }
